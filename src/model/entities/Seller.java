@@ -8,7 +8,7 @@ public class Seller {
 	private String name;
 	private String email;
 	private Date birthDate;
-	private Double baseSaraly;
+	private Double baseSalary;
 	private Department department;
 
 	public Seller() {
@@ -19,7 +19,7 @@ public class Seller {
 		this.name = name;
 		this.email = email;
 		this.birthDate = birthDate;
-		this.baseSaraly = baseSaraly;
+		this.baseSalary = baseSaraly;
 		this.department = department;
 	}
 
@@ -55,12 +55,12 @@ public class Seller {
 		this.birthDate = birthDate;
 	}
 
-	public Double getBaseSaraly() {
-		return baseSaraly;
+	public Double getBaseSalary() {
+		return baseSalary;
 	}
 
-	public void setBaseSaraly(Double baseSaraly) {
-		this.baseSaraly = baseSaraly;
+	public void setBaseSalary(Double baseSalary) {
+		this.baseSalary = baseSalary;
 	}
 
 	public Department getDepartment() {
@@ -99,7 +99,7 @@ public class Seller {
 	@Override
 	public String toString() {
 		return "Seller [id=" + id + ", name=" + name + ", email=" + email + ", birthDate=" + birthDate + ", baseSaraly="
-				+ baseSaraly + ", department=" + department + "]";
+				+ baseSalary + ", department=" + department + "]";
 	}
 	
 }
